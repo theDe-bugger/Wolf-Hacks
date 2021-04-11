@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
-<![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
-<![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
+<head>m.Ee
     <title>Wolf Hacks Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -31,6 +26,7 @@ http://www.templatemo.com/tm-402-genius
     <!-- JavaScripts -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/modernizr.js"></script>
+    <script src= "js/index.js"></script>
     <!--[if lt IE 8]>
 	<div style=' clear: both; text-align:center; position: relative;'>
             <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
@@ -58,8 +54,8 @@ http://www.templatemo.com/tm-402-genius
         <div class="responsive_menu">
             <ul class="main_menu">
                 <li><a class="show-1 homebutton" href="#"><i class="fa fa-home"></i>Home</a></li>
-                <li><a class="show-2" href="#"><i class="fas fa-map-marker"></i>Explore</a></li>
-                <li><a class="show-3" href="#"><i class="fas fa-heart"></i>Health Tracker</a></li>
+                <li><a class="show-2" href="#"><i class="fa fa-map-marker"></i>Explore</a></li>
+                <li><a class="show-3" href="#"><i class="fa fa-heart"></i>Health Tracker</a></li>
             </ul> <!-- /.main_menu -->
         </div> <!-- /.responsive_menu -->
     </div> <!-- /responsive_navigation -->
@@ -72,9 +68,9 @@ http://www.templatemo.com/tm-402-genius
                 <div class="col-md-2 visible-md visible-lg">
                     <div class="main_menu">
                         <ul class="menu">
-                            <li><a class="show-1 homebutton" href="#" data-toggle="tooltip" data-original-title="Home"><i class="fa fa-home"></i></a></li>
-                            <li><a class="show-2" href="#" data-toggle="tooltip" data-original-title="Explore"><i class="fa fa-map-marker"></i></a></li>
-                            <li><a class="show-3" href="#" data-toggle="tooltip" data-original-title="Health Tracker"><i class="fa fa-heart"></i></a></li>
+                            <li><a id = "homeclick" class="show-1 homebutton" href="#" data-toggle="tooltip" data-original-title="Home"><i class="fa fa-home"></i></a></li>
+                            <li><a id = "gameclick" class="show-2" href="#" data-toggle="tooltip" data-original-title="Explore"><i class="fa fa-map-marker"></i></a></li>
+                            <li><a id = "surveyclick" class="show-3" href="#" data-toggle="tooltip" data-original-title="Health Tracker"><i class="fa fa-heart"></i></a></li>
                         </ul>
                     </div> <!-- /.main-menu -->
                 </div> <!-- /.col-md-2 -->
@@ -101,10 +97,9 @@ http://www.templatemo.com/tm-402-genius
                             </div> <!-- /.page-header -->
                             <div class="content-inner">
                                 <div class="row">
-                                    <div class="col-md-7">
+                                    <div class="col-md-7; justify-content:center">
                                         <h2 class="widget-title">Our product for healthy space travel</h2>
                                         <p>Our product is designed to keep passengers in space travel healthy and active through our resources on this website. Our features can be accessed through the navigation panel. </p>
-                                       <!--<p>Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for background images used in this template. This layout is based on <a rel="nofollow" href="http://getbootstrap.com">Bootstrap</a> responsive framework. Home and Gallery pages are integrated with <a rel="nofollow" href="https://github.com/duncanmcdougall/Responsive-Lightbox">Responsive Lightbox</a> for images.</p>--> 
                                     </div> <!-- /.col-md-7 -->
                                 </div> <!-- /.row -->
                                 <div class="our-team">
@@ -113,8 +108,8 @@ http://www.templatemo.com/tm-402-genius
                                             <h3 class="widget-title">Our Resources for You</h3>
                                         </div> <!-- /.col-md-12 -->
                                     </div> <!-- /.row -->
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-6">
+                                    <div class="row;justify-content:center">
+                                        <div class="col-md-6 col-sm-6">
                                             <div class="team-member">
                                                 <div class="member-thumb">
                                                     <img src="images/planet_pic.png" alt="">
@@ -128,7 +123,7 @@ http://www.templatemo.com/tm-402-genius
                                                 </div>
                                             </div>
                                         </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6">
+                                        <div class="col-md-6 col-sm-6">
                                             <div class="team-member">
                                                 <div class="member-thumb">
                                                     <img src="images/health.png" alt="">
@@ -138,24 +133,6 @@ http://www.templatemo.com/tm-402-genius
                                                     <span class="member-role">Assessing your mental and physcal health.</span>
                                                     <p class="member-desc">Our survey allows passengers to self-assesss their mental health as well as their physical health. This helps to let the passenger know if they have any space sicknesses or problems with their mental health.</p>
                                                     <ul class="member-social">
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div> <!-- /.col-md-4 -->
-                                        <div class="col-md-4 col-sm-6">
-                                            <div class="team-member">
-                                                <div class="member-thumb">
-                                                    <img src="images/team3.jpg" alt="">
-                                                </div>
-                                                <div class="member-infos">
-                                                    <h4 class="member-name">Johnny</h4>
-                                                    <span class="member-role">Marketing Manager</span>
-                                                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                    <ul class="member-social">
-                                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                                                        <li><a href="#" class="fa fa-instagram"></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -180,176 +157,183 @@ http://www.templatemo.com/tm-402-genius
                                 <h2 class="page-title">Monitor Your Health</h2>
                             </div> <!-- /.page-header -->
                             <div class="content-inner">
+                                <div class = "row">
                                 <!-- First survey: -->
-                                <div class="testbox">
-                                    <form action="/">
+                                <div class="col-md-4">
+                                    <form id = "diseases">
                                       <h1>Disease and Illness</h1>
                                       <div>
-                                        <h4></h4>Have you been facing back pain or loss of height?</h4>
+                                        <h4>Have you been facing back pain or loss of height?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="meet" />Yes</label>
-                                          <label><input type="radio" value="none" name="meet" />No</label>
+                                          <label><input type="radio" value="yes" name="backpain" />Yes</label>
+                                          <label><input type="radio" value="none" name="backpain" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Has your grip weakened?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="involved" />Yes</label>
-                                          <label><input type="radio" value="none" name="involved" />No</label>
+                                          <label><input type="radio" value="yes" name="grip" />Yes</label>
+                                          <label><input type="radio" value="none" name="grip" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Do you get fractures more often?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="discussed" />Yes</label>
-                                          <label><input type="radio" value="none" name="discussed" />No</label>
+                                          <label><input type="radio" value="yes" name="fracture" />Yes</label>
+                                          <label><input type="radio" value="none" name="fracture" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Has your gums and jaw line receded?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="name" />Yes</label>
-                                          <label><input type="radio" value="none" name="name" />No</label>
+                                          <label><input type="radio" value="none" name="jaw" />Yes</label>
+                                          <label><input type="radio" value="none" name="jaw" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Does your arm or leg seem smaller or weaker than the other?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="fundraising" />Yes</label>
-                                          <label><input type="radio" value="none" name="fundraising" />No</label>
+                                          <label><input type="radio" value="yes" name="smaller" />Yes</label>
+                                          <label><input type="radio" value="none" name="smaller" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Do you face difficulty when moving, or easily get tired?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="visited" />Yes</label>
-                                          <label><input type="radio" value="none" name="visited" />No</label>
+                                          <label><input type="radio" value="yes" name="tired" />Yes</label>
+                                          <label><input type="radio" value="none" name="tired" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Are you feeling congested?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="visited" />Yes</label>
-                                          <label><input type="radio" value="none" name="visited" />No</label>
+                                          <label><input type="radio" value="yes" name="congested" />Yes</label>
+                                          <label><input type="radio" value="none" name="congested" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Do you have a runny or stuffy nose, a sore throat, or a mild fever?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="visited" />Yes</label>
-                                          <label><input type="radio" value="none" name="visited" />No</label>
+                                          <label><input type="radio" value="yes" name="runny" />Yes</label>
+                                          <label><input type="radio" value="none" name="runny" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Are you constantly coughing or sneezing?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="visited" />Yes</label>
-                                          <label><input type="radio" value="none" name="visited" />No</label>
+                                          <label><input type="radio" value="yes" name="cough" />Yes</label>
+                                          <label><input type="radio" value="none" name="cough" />No</label>
                                         </div>
                                       </div>
                                       <div class="btn-block">
-                                        <button type="submit" href="/">Send</button>
+                                        <button id = "health" type="submit" onclick = "health()">Send</button>
                                       </div>
                                     </form>
                                   </div>
 
                                   <!-- Second survey: -->
-                                  <div class="testbox">
+                                  <div class="col-md-4">
                                     <form action="/">
                                       <h1>Daily Journal</h1>
                                       <div>
                                         <h4>How would you rate your mental health?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="meet" />Poor</label>
-                                          <label><input type="radio" value="none" name="meet" />Fair</label>
-                                          <label><input type="radio" value="none" name="involved" />Good</label>
-                                          <label><input type="radio" value="none" name="involved" />Excellent</label>
+                                          <label><input type="radio" value="none" name="mentalrating" />Poor</label>
+                                          <label><input type="radio" value="none" name="mentalrating" />Fair</label>
+                                          <label><input type="radio" value="none" name="mentalrating" />Good</label>
+                                          <label><input type="radio" value="none" name="mentalrating" />Excellent</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Have you felt stressed, depressed, or sad lately?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="involved" />Yes</label>
-                                          <label><input type="radio" value="none" name="involved" />No</label>
+                                          <label><input type="radio" value="none" name="sad" />Yes</label>
+                                          <label><input type="radio" value="none" name="sad" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Have you had someone to talk to about your issues like a parent, friend, etc...?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="discussed" />Yes</label>
-                                          <label><input type="radio" value="none" name="discussed" />No</label>
+                                          <label><input type="radio" value="none" name="Issues" />Yes</label>
+                                          <label><input type="radio" value="none" name="Issues" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Do you feel tired no matter how much you sleep?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="name" />Yes</label>
-                                          <label><input type="radio" value="none" name="name" />No</label>
-                                          <label><input type="radio" value="none" name="name" />Sometimes</label>
+                                          <label><input type="radio" value="none" name="Sleep" />Yes</label>
+                                          <label><input type="radio" value="none" name="Sleep" />No</label>
+                                          <label><input type="radio" value="none" name="Sleep" />Sometimes</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Have you looked into trying new activities such as drawing or singing?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="fundraising" />Yes</label>
-                                          <label><input type="radio" value="none" name="fundraising" />No</label>
+                                          <label><input type="radio" value="none" name="Activities" />Yes</label>
+                                          <label><input type="radio" value="none" name="Acti"ities />No</label>
                                         </div>
                                       </div>
                                       <div class="btn-block">
-                                        <button type="submit" href="/">Send</button>
+                                        <button type="submit" href="/" onclick = "mental()">Send</button>
                                       </div>
                                     </form>
                                   </div>
                                   <!-- Third survey: -->
-                                  <div class="testbox">
+                                  <div class="col-md-4">
                                     <form action="/">
                                       <h1>Nutrition</h1>
                                       <div>
                                         <h4>Did you have a full 3 course meal yesterday, if not how much did you have left over?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="meet" />Yes</label>
-                                          <label><input type="radio" value="none" name="meet" />More than half a meal</label>
-                                          <label><input type="radio" value="none" name="involved" />Less than half a meal</label>
+                                          <label><input type="radio" value="none" name="Meal" />Yes</label>
+                                          <label><input type="radio" value="none" name="Meal" />More than half a meal</label>
+                                          <label><input type="radio" value="none" name="Meal" />Less than half a meal</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Are you taking any medications?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="involved" />Yes</label>
-                                          <label><input type="radio" value="none" name="involved" />No</label>
+                                          <label><input type="radio" value="none" name="Medications" />Yes</label>
+                                          <label><input type="radio" value="none" name="Medications" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>What do you consider the most important meal of the day?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="discussed" />Breakfast</label>
-                                          <label><input type="radio" value="none" name="discussed" />Lunch</label>
-                                          <label><input type="radio" value="none" name="discussed" />Dinner</label>
+                                          <label><input type="radio" value="none" name="Important" />Breakfast</label>
+                                          <label><input type="radio" value="none" name="Important" />Lunch</label>
+                                          <label><input type="radio" value="none" name="Important" />Dinner</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Do you eat more fruits or snacks such as chips?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="name" />Fruits</label>
-                                          <label><input type="radio" value="none" name="name" />Snacks</label>
+                                          <label><input type="radio" value="none" name="Fruits" />Fruits</label>
+                                          <label><input type="radio" value="none" name="Fruits" />Snacks</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>What is your BMI (Body max index)?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="fundraising" />Less than 18.5</label>
-                                          <label><input type="radio" value="none" name="fundraising" />18.5-25</label>
-                                          <label><input type="radio" value="none" name="fundraising" />25-30</label>
-                                          <label><input type="radio" value="none" name="fundraising" />30-40</label>
+                                          <label><input type="radio" value="none" name="BMI" />Less than 18.5</label>
+                                          <label><input type="radio" value="none" name="BMI" />18.5-25</label>
+                                          <label><input type="radio" value="none" name="BMI" />25-30</label>
+                                          <label><input type="radio" value="none" name="BMI" />30-40</label>
                                         </div>
                                       </div>
                                       <div class="btn-block">
-                                        <button type="submit" href="/">Send</button>
+                                        <button type="submit" href="/" onclick = "nutrition()">Send</button>
                                       </div>
                                     </form>
                                   </div>
+                                </div>
                             </div> <!-- /.content-inner -->
-
+                            <div class="page-header" id = "feedback">
+                                <h2 class="page-title">Feedback</h2>
+                            </div> <!-- /.page-header -->
+                            <div class="content-inner">
+                                <p id = "feedbackinfo"></p>
+                            </div>
                         </div> <!-- /.health tracker-->
 
                     </div> <!-- /.content-holder -->

@@ -9,7 +9,7 @@ function health(){
     if(document.getElementsByName("congested")[0].checked || document.getElementsByName("runny")[0].checked || document.getElementsByName("cough")[0].checked){
         final+= " Your results are showing that you may be suffering from the common cold. It is not a big issue, but we highly reccomend you to get some rest and sleep, stay hydrated, and use a nasal spray.<br>"
 	} 
-    alert(JSON.stringify(final))
+    alert("Feedback successfully given!")
     document.getElementById("feedbackinfo").innerHTML = document.getElementById("feedbackinfo").innerHTML + final
 }
 
@@ -27,7 +27,7 @@ function mental(){
     if(document.getElementsByName("Activities")[1].checked){
         final+= "We highly encourage you to try new activities once in a while to change up the flow. New activities can also help you become more active and mentally healthy.<br>"
 	} 
-    alert(JSON.stringify(final))
+    alert("Feedback successfully given!")
     document.getElementById("feedbackinfo").innerHTML = document.getElementById("feedbackinfo").innerHTML + final
 }
 function nutrition(){
@@ -42,6 +42,6 @@ function nutrition(){
 	} else if(document.getElementsByName("BMI")[3].checked){
         final+= "Your results have showed us that you are overweight, we encourage you to reduce your intake on junk food and replace it with fruits and vegetables. You should also remember to drink plenty of water.<br>"
 	} 
-    alert(JSON.stringify(final))
+    alert("Feedback successfully given!")
     document.getElementById("feedbackinfo").innerHTML = document.getElementById("feedbackinfo").innerHTML + final
 }

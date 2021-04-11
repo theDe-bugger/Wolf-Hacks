@@ -93,13 +93,12 @@ http://www.templatemo.com/tm-402-genius
                         
                         <div id="menu-1" class="homepage">
                            <div class="page-header">
-                                <h1 class="page-title">About Us</h1>
+                                <h1 class="page-title">Our Product for Healthy Space Travel</h1>
                             </div> <!-- /.page-header -->
                             <div class="content-inner">
                                 <div class="row">
                                     <div class="col-md-7; justify-content:center">
                                         <h2 class="widget-title">Our product for healthy space travel</h2>
-                                        <p>Our product is designed to keep passengers in space travel healthy and active through our resources on this website. Our features can be accessed through the navigation panel. </p>
                                     </div> <!-- /.col-md-7 -->
                                 </div> <!-- /.row -->
                                 <div class="our-team">
@@ -160,7 +159,6 @@ http://www.templatemo.com/tm-402-genius
                                 <div class = "row">
                                 <!-- First survey: -->
                                 <div class="col-md-4">
-                                    <form id = "diseases">
                                       <h1>Disease and Illness</h1>
                                       <div>
                                         <h4>Have you been facing back pain or loss of height?</h4>
@@ -226,105 +224,100 @@ http://www.templatemo.com/tm-402-genius
                                         </div>
                                       </div>
                                       <div class="btn-block">
-                                        <button id = "health" type="submit" onclick = "health()">Send</button>
+                                        <button id = "healthbutton" onclick = "health()">Send</button>
                                       </div>
-                                    </form>
                                   </div>
 
                                   <!-- Second survey: -->
                                   <div class="col-md-4">
-                                    <form action="/">
                                       <h1>Daily Journal</h1>
                                       <div>
                                         <h4>How would you rate your mental health?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="mentalrating" />Poor</label>
-                                          <label><input type="radio" value="none" name="mentalrating" />Fair</label>
-                                          <label><input type="radio" value="none" name="mentalrating" />Good</label>
-                                          <label><input type="radio" value="none" name="mentalrating" />Excellent</label>
+                                          <label><input type="radio" value="poor" name="mentalrating" />Poor</label>
+                                          <label><input type="radio" value="fair" name="mentalrating" />Fair</label>
+                                          <label><input type="radio" value="good" name="mentalrating" />Good</label>
+                                          <label><input type="radio" value="excellent" name="mentalrating" />Excellent</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Have you felt stressed, depressed, or sad lately?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="sad" />Yes</label>
-                                          <label><input type="radio" value="none" name="sad" />No</label>
+                                          <label><input type="radio" value="yes" name="sad" />Yes</label>
+                                          <label><input type="radio" value="no" name="sad" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Have you had someone to talk to about your issues like a parent, friend, etc...?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="Issues" />Yes</label>
-                                          <label><input type="radio" value="none" name="Issues" />No</label>
+                                          <label><input type="radio" value="yes" name="Issues" />Yes</label>
+                                          <label><input type="radio" value="no" name="Issues" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Do you feel tired no matter how much you sleep?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="Sleep" />Yes</label>
-                                          <label><input type="radio" value="none" name="Sleep" />No</label>
-                                          <label><input type="radio" value="none" name="Sleep" />Sometimes</label>
+                                          <label><input type="radio" value="yes" name="Sleep" />Yes</label>
+                                          <label><input type="radio" value="no" name="Sleep" />No</label>
+                                          <label><input type="radio" value="sometimes" name="Sleep" />Sometimes</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Have you looked into trying new activities such as drawing or singing?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="Activities" />Yes</label>
-                                          <label><input type="radio" value="none" name="Acti"ities />No</label>
+                                          <label><input type="radio" value="yes" name="Activities" />Yes</label>
+                                          <label><input type="radio" value="no" name="Activities" />No</label>
                                         </div>
                                       </div>
                                       <div class="btn-block">
-                                        <button type="submit" href="/" onclick = "mental()">Send</button>
+                                        <button type="submit" onclick = "mental()">Send</button>
                                       </div>
-                                    </form>
                                   </div>
                                   <!-- Third survey: -->
                                   <div class="col-md-4">
-                                    <form action="/">
                                       <h1>Nutrition</h1>
                                       <div>
                                         <h4>Did you have a full 3 course meal yesterday, if not how much did you have left over?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="Meal" />Yes</label>
-                                          <label><input type="radio" value="none" name="Meal" />More than half a meal</label>
-                                          <label><input type="radio" value="none" name="Meal" />Less than half a meal</label>
+                                          <label><input type="radio" value="yes" name="Meal" />Yes</label>
+                                          <label><input type="radio" value="more than half a meal" name="Meal" />More than half a meal</label>
+                                          <label><input type="radio" value="less than half a meal" name="Meal" />Less than half a meal</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Are you taking any medications?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="Medications" />Yes</label>
-                                          <label><input type="radio" value="none" name="Medications" />No</label>
+                                          <label><input type="radio" value="yes" name="Medications" />Yes</label>
+                                          <label><input type="radio" value="no" name="Medications" />No</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>What do you consider the most important meal of the day?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="Important" />Breakfast</label>
-                                          <label><input type="radio" value="none" name="Important" />Lunch</label>
-                                          <label><input type="radio" value="none" name="Important" />Dinner</label>
+                                          <label><input type="radio" value="breakfast" name="Important" />Breakfast</label>
+                                          <label><input type="radio" value="lunch" name="Important" />Lunch</label>
+                                          <label><input type="radio" value="dinner" name="Important" />Dinner</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>Do you eat more fruits or snacks such as chips?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="Fruits" />Fruits</label>
-                                          <label><input type="radio" value="none" name="Fruits" />Snacks</label>
+                                          <label><input type="radio" value="fruits" name="Fruits" />Fruits</label>
+                                          <label><input type="radio" value="snacks" name="Fruits" />Snacks</label>
                                         </div>
                                       </div>
                                       <div>
                                         <h4>What is your BMI (Body max index)?</h4>
                                         <div class="question-answer">
-                                          <label><input type="radio" value="none" name="BMI" />Less than 18.5</label>
-                                          <label><input type="radio" value="none" name="BMI" />18.5-25</label>
-                                          <label><input type="radio" value="none" name="BMI" />25-30</label>
-                                          <label><input type="radio" value="none" name="BMI" />30-40</label>
+                                          <label><input type="radio" value="less18.5" name="BMI" />Less than 18.5</label>
+                                          <label><input type="radio" value="18.5-25" name="BMI" />18.5-25</label>
+                                          <label><input type="radio" value="25-30" name="BMI" />25-30</label>
+                                          <label><input type="radio" value="30-40" name="BMI" />30-40</label>
                                         </div>
                                       </div>
                                       <div class="btn-block">
-                                        <button type="submit" href="/" onclick = "nutrition()">Send</button>
+                                        <button type="submit" onclick = "nutrition()">Send</button>
                                       </div>
-                                    </form>
                                   </div>
                                 </div>
                             </div> <!-- /.content-inner -->
@@ -332,7 +325,7 @@ http://www.templatemo.com/tm-402-genius
                                 <h2 class="page-title">Feedback</h2>
                             </div> <!-- /.page-header -->
                             <div class="content-inner">
-                                <p id = "feedbackinfo"></p>
+                                <p id = "feedbackinfo"> </p>
                             </div>
                         </div> <!-- /.health tracker-->
 

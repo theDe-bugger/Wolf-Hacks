@@ -1,1 +1,1 @@
-# Wolf-Hacks
+# Wolf-Hacks WebApp
